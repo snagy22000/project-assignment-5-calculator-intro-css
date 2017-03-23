@@ -5,3 +5,5 @@ Create a calculator that has buttons corresponding to 0—9, addition, subtracti
 Include a button with the text DEL, and another with CLEAR. Use a text input to represent a calculator screen, where the buttons that user inputs will be mirrored.
 
 Focus on styling your calculator to be alluring using hover states and any other styles that improve the experience. You will address its functionality in the next chapter.
+
+![](2017-03-23-14-28-31.png)

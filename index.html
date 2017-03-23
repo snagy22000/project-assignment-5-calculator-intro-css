@@ -7,59 +7,41 @@
   <title>Calculator</title>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css">
-  <link href="css/normalize.css" rel="stylesheet" media="all">
-  <link href="css/styles.css" rel="stylesheet" media="all">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="style.css" rel="stylesheet">
+
   <!--[if lt IE 9]>
-  <script src="js/html5shiv-printshiv.js" media="all"></script><![endif]-->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-left">
-        <li class="active"><a href="../snagy22000.github.io/index.html">Back</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
 <div class="wrap">
   <div class="top">
     <input class="screen" type="text" placeholder="">
   </div>
   <div class="rows ">
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>0</button>
-    <button>-</button>
-    <button>+</button>
-    <button>/</button>
-    <button>.</button>
-    <button>x</button>
-    <button class="evals">=</button>
-    <button class="clear">clear</button>
-    <button class="delete">del</button>
+    <button id="btn_7" class="number">7</button>
+    <button id="btn_8" class="number">8</button>
+    <button id="btn_9" class="number">9</button>
+    <button id="btn_4" class="number">4</button>
+    <button id="btn_5" class="number">5</button>
+    <button id="btn_6" class="number">6</button>
+    <button id="btn_1" class="number">1</button>
+    <button id="btn_2" class="number">2</button>
+    <button id="btn_3" class="number">3</button>
+    <button id="btn_0" class="number">0</button>
+    <button id="btn_minus" class="operator">-</button>
+    <button id="btn_plus" class="operator">+</button>
+    <button id="btn_divide" class="operator">/</button>
+    <button id="btn_comma" class="operator">.</button>
+    <button id="btn_multiply" class="operator">*</button>
+    <button id="btn_evals" class="eval">=</button>
+    <button id="btn_clear" class="clear">clear</button>
+    <button id="btn_delete" class="clear">del</button>
   </div>
 </div>
+ <script src="script.js" defer="defer"></script>
 </body>
 </html>
